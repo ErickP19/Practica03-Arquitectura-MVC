@@ -49,13 +49,13 @@ public class ControladorTreeMapJugadorExtra {
     }
 
     //imprime todos los objetos de la lista
-    public void print() {
+    public void listar() {
         System.out.println("Lista \n");
 
         for (Map.Entry<Integer, JugadorExtra> ju : lista.entrySet()) {
             int key = ju.getKey();
-            String nomBallena = ju.getValue().getNombre();
-            System.out.println("Key: " + key + " Ballena: " + nomBallena);
+            String nomJugador = ju.getValue().getNombre();
+            System.out.println("Key: " + key + " Jugador Extra: " + nomJugador);
         }
     }
     

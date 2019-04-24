@@ -76,7 +76,7 @@ public class Inicio {
                         System.out.println("3. Update");
                         System.out.println("4. Dalete");
                         System.out.println("5. Regresar");
-
+                        System.out.println("6. Listar");
                         System.out.println("Elija una opcion");
                         opcion = s.nextInt();
                         System.out.println("\n");
@@ -221,8 +221,9 @@ public class Inicio {
 
                                 salir1 = true;
                                 break;
+                             
                             default:
-                                System.out.println("Solo digite números entre 1 y 5");
+                                System.out.println("Solo digite números entre 1 y 6");
                         }
                     }
                     break;
@@ -420,7 +421,7 @@ public class Inicio {
                     break;
 
                 case 3:
-                    System.out.println("A elegido la opcion Perro \n");
+                    System.out.println("A elegido la opcion Jugador Profesional \n");
 
                     while (!salir) {
 
@@ -599,7 +600,7 @@ public class Inicio {
                     }
                     break;
                 case 4:
-                    System.out.println("A elegido la opcion Serpiente \n");
+                    System.out.println("A elegido la opcion Jugador Extra \n");
 
                     while (!salir) {
 
@@ -608,7 +609,7 @@ public class Inicio {
                         System.out.println("3. Update");
                         System.out.println("4. Dalete");
                         System.out.println("5. Regresar");
-
+                        System.out.println("6. Listar");
                         System.out.println("Elija una opcion");
                         opcion = s.nextInt();
                         JugadorExtra j = new JugadorExtra();
@@ -773,6 +774,9 @@ public class Inicio {
                                 break;
                             default:
                                 System.out.println("Solo digite números entre 1 y 5");
+                             case 6:
+                                controladorJugador2.listar();
+                                break;
                         }
                     }
                     break;
