@@ -55,10 +55,10 @@ public class Inicio {
         System.out.println("Bienvenido al proyecto Restaurante");
         while (!salir1) {
             System.out.println("1. CRUD Entrenador Personal");
-            System.out.println("1. CRUD Entrenador Psicologico");
-            System.out.println("1. CRUD Jugador Profesional");
-            System.out.println("1. CRUD Jugador Extra");
-            System.out.println("3. Salir");
+            System.out.println("2. CRUD Entrenador Psicologico");
+            System.out.println("3. CRUD Jugador Profesional");
+            System.out.println("4. CRUD Jugador Extra");
+            System.out.println("5. Salir");
 
             System.out.println("Elija una opcion");
             op = s.nextInt();
@@ -479,12 +479,12 @@ public class Inicio {
                                 ju.setCodigo(c);
                                 System.out.println("\n");
 */
-                                System.out.println("Ingrese nombre del entrenador");
+                                System.out.println("Ingrese nombre del Jugador");
                                 String nom = dato.next();
                                 ju.setNombre(nom);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese cedula del entrenador");
+                                System.out.println("Ingrese cedula del Jugador");
                                 String ce1= dato.next();
                                 ju.setCedula(ce1);
                                 System.out.println("\n");
@@ -554,12 +554,12 @@ public class Inicio {
                                 ju.setCodigo(c11);
                                 System.out.println("\n");
 */
-                                System.out.println("Ingrese nombre del entrenador");
+                                System.out.println("Ingrese nombre del Jugador");
                                 String nom1 = dato.next();
                                 ju.setNombre(nom1);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese cedula del entrenador");
+                                System.out.println("Ingrese cedula del Jugador");
                                 String ce11= dato.next();
                                 ju.setCedula(ce11);
                                 System.out.println("\n");
@@ -628,7 +628,7 @@ public class Inicio {
                                 j.setPeso(pe);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese la audicion");
+                                System.out.println("Ingrese si es titular o suplente");
                                 boolean s1 = dato.nextBoolean();
                                 j.setTitularsuplente(s1);
                                 System.out.println("\n");
@@ -658,12 +658,12 @@ public class Inicio {
                                 j.setCodigo(c);
                                 System.out.println("\n");
 */
-                                System.out.println("Ingrese nombre del entrenador");
+                                System.out.println("Ingrese nombre del Jugador");
                                 String nom = dato.next();
                                 j.setNombre(nom);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese cedula del entrenador");
+                                System.out.println("Ingrese cedula del Jugador");
                                 String ce1= dato.next();
                                 j.setCedula(ce1);
                                 System.out.println("\n");
@@ -733,12 +733,12 @@ public class Inicio {
                                 j.setCodigo(c11);
                                 System.out.println("\n");
 */
-                                System.out.println("Ingrese nombre del entrenador");
+                                System.out.println("Ingrese nombre del Jugador");
                                 String nom1 = dato.next();
                                 j.setNombre(nom1);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese cedula del entrenador");
+                                System.out.println("Ingrese cedula del Jugador");
                                 String ce112= dato.next();
                                 j.setCedula(ce112);
                                 System.out.println("\n");
