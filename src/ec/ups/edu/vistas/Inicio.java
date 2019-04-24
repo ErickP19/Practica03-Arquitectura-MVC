@@ -9,10 +9,10 @@ import ec.ups.edu.clases.EntrenadorPersonal;
 import ec.ups.edu.clases.EntrenadorPsicologico;
 import ec.ups.edu.clases.JugadorExtra;
 import ec.ups.edu.clases.JugarProfesional;
-import ec.ups.edu.controladores.ControladorEntrenadorPersonal;
-import ec.ups.edu.controladores.ControladorEntrenadorPsicologico;
-import ec.ups.edu.controladores.ControladorJugadorExtra;
-import ec.ups.edu.controladores.ControladorJugadorProfesional;
+import ec.ups.edu.controladores.ControladorListEntrenadorPersonal;
+import ec.ups.edu.controladores.ControladorSetEntrenadorPsicologico;
+import ec.ups.edu.controladores.ControladorTreeMapJugadorExtra;
+import ec.ups.edu.controladores.ControladorSortedJugadorProfesional;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
@@ -47,10 +47,10 @@ public class Inicio {
         boolean salir = false;
         boolean salir1 = false;
 
-        ControladorEntrenadorPersonal controladorEntrenador = new ControladorEntrenadorPersonal();
-        ControladorEntrenadorPsicologico controladorEntrenador1 = new ControladorEntrenadorPsicologico();
-        ControladorJugadorProfesional controladorJugador = new ControladorJugadorProfesional();
-        ControladorJugadorExtra controladorJugador2 = new ControladorJugadorExtra();
+        ControladorListEntrenadorPersonal controladorEntrenador = new ControladorListEntrenadorPersonal();
+        ControladorSetEntrenadorPsicologico controladorEntrenador1 = new ControladorSetEntrenadorPsicologico();
+        ControladorSortedJugadorProfesional controladorJugador = new ControladorSortedJugadorProfesional();
+        ControladorTreeMapJugadorExtra controladorJugador2 = new ControladorTreeMapJugadorExtra();
         int op, opcion;
         System.out.println("Bienvenido al proyecto Restaurante");
         while (!salir1) {
