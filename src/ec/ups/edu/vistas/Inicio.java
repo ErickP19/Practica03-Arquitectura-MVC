@@ -450,7 +450,7 @@ public class Inicio {
                                 ju.setPeso(pe);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese la audicion");
+                                System.out.println("Ingrese si el jugador juega o no con TRUE/FALSE");
                                 boolean s1 = dato.nextBoolean();
                                 ju.setTitularsuplente(s1);
                                 System.out.println("\n");
@@ -525,7 +525,7 @@ public class Inicio {
                                 ju.setPeso(pe1);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese la audicion");
+                                System.out.println("Ingrese si el jugador juega o no con TRUE/FALSE");
                                 boolean s11 = dato.nextBoolean();
                                 ju.setTitularsuplente(s11);
                                 System.out.println("\n");
@@ -629,7 +629,7 @@ public class Inicio {
                                 j.setPeso(pe);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese si es titular o suplente");
+                                System.out.println("Ingrese si el jugador juega o no con TRUE/FALSE");
                                 boolean s1 = dato.nextBoolean();
                                 j.setTitularsuplente(s1);
                                 System.out.println("\n");
@@ -704,7 +704,7 @@ public class Inicio {
                                 j.setPeso(pe1);
                                 System.out.println("\n");
 
-                                System.out.println("Ingrese la audicion");
+                                System.out.println("Ingrese si el jugador juega o no con TRUE/FALSE");
                                 boolean s11 = dato.nextBoolean();
                                 j.setTitularsuplente(s11);
                                 System.out.println("\n");
