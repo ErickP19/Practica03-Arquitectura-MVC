@@ -52,7 +52,7 @@ public class Inicio {
         ControladorSortedJugadorProfesional controladorJugador = new ControladorSortedJugadorProfesional();
         ControladorTreeMapJugadorExtra controladorJugador2 = new ControladorTreeMapJugadorExtra();
         int op, opcion;
-        System.out.println("Bienvenido al proyecto Restaurante");
+        System.out.println("Bienvenido al proyecto");
         while (!salir1) {
             System.out.println("1. CRUD Entrenador Personal");
             System.out.println("2. CRUD Entrenador Psicologico");
